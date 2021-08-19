@@ -78,3 +78,15 @@ Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: The connection wa
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622)
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
 	... 18 more
+2021-08-19 12:21:35 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM USER USER USER[*] USERNAME"; SQL statement:
+SELECT * FROM USER USER USER USERNAME [42000-200]
+2021-08-19 12:21:43 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "USERNAME[*]"; expected "UPDATE, USE"; SQL statement:
+USERNAME [42001-200]
+2021-08-19 12:21:47 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "USER[*] USER"; expected "UPDATE, USE"; SQL statement:
+USER USER [42001-200]
+2021-08-19 12:21:50 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "USER[*] USER USER USER"; expected "UPDATE, USE"; SQL statement:
+USER USER USER USER [42001-200]
